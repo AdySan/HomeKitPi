@@ -5,7 +5,7 @@ var uuid = require('../').uuid;
 var mqtt = require('mqtt');
 var options = {
 	port: 1883,
-	host: '192.168.1.178’,
+	host: '192.168.1.178',
 	clientId: 'HomeKitPiServer_MQTT_Publisher'
 }; 
 var client = mqtt.connect(options);
